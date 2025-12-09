@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌍 Dagens Goda Nyhet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Världen, En Positiv Nyhet I Taget.</h1>
+        <p>Vi kopplar samman jorden genom daglig inspiration.</p>
+    </header>
+
+    <main class="container">
+
+        <section class="news-card">
+            <p class="date" id="news-date">Tisdag 9 December 2025</p>
+            <h2 id="news-headline">Bina Räddade: Ny Global Samarbetsinsats Återställer Populationer!</h2>
+            <p id="news-summary">
+                I ett fantastiskt exempel på internationellt samarbete har forskare och bönder från sex kontinenter lyckats implementera nya, hållbara jordbruksmetoder. Detta har lett till en oväntat snabb återhämtning av binas populationer i flera kritiska regioner. Experter hyllar insatsen som ett bevis på vad global enighet kan åstadkomma.
+            </p>
+            <a href="#" target="_blank" id="news-link" class="read-more-btn">Läs mer om projektet här »</a>
+        </section>
+
+        <section class="interactive-section quote-section">
+            <h3 class="section-heading">Dagens Citat:</h3>
+            <blockquote id="daily-quote">"Det är bättre att tända ett litet ljus än att förbanna mörkret."</blockquote>
+            <button id="new-quote-btn" class="action-btn">Visa mig ett nytt citat</button>
+        </section>
+
+        <section class="interactive-section feeling-section">
+            <h3 class="section-heading">Hur fick den här nyheten dig att känna?</h3>
+            <div class="feeling-buttons">
+                <button class="feeling-btn" data-feeling="glad">😃 Glad</button>
+                <button class="feeling-btn" data-feeling="inspirerad">✨ Inspirerad</button>
+                <button class="feeling-btn" data-feeling="hoppfull">💚 Hoppfull</button>
+            </div>
+            <p id="vote-feedback" class="feedback-message"></p>
+        </section>
+
+        <section class="interactive-section share-section">
+            <h3 class="section-heading">Dela den goda nyheten:</h3>
+            <div class="share-buttons">
+                <button class="share-btn twitter-btn" data-platform="twitter">🐦 Dela på X</button>
+                <button class="share-btn email-btn" data-platform="email">📧 Dela via E-post</button>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="footer">
+        <div class="email-signup">
+            <h3 class="section-heading">Få Dagens Goda Nyhet Direkt</h3>
+            <form id="signup-form">
+                <input type="email" placeholder="Din e-postadress" required>
+                <button type="submit" class="action-btn">Registrera mig</button>
+            </form>
+            <p id="signup-feedback" class="feedback-message"></p>
+        </div>
+        
+        <p>&copy; 2025 Goda Nyheter. | <a href="#">Integritetspolicy</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
